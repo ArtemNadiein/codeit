@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Code IT</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Arimo:400,700,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="scripts/slider.js"></script>
+    <script src="scripts/validate.js"></script>
+</head>
+<body>
+<header>
+    <div class="header__top-holder">
+        <div class="top-holder__top">
+            <a href="index.html"><img class="logo" src="images/logo.png" width="200" height="47" alt="Code IT"/></a>
+            <div class="top__feedback">
+                <div class="feedback__phones">
+                    <a class="phones__phone" href="tel:+30507777777">+3 (050) 777 77 77</a>
+                    <a class="phones__phone" href="tel:+30507777777">+3 (050) 777 77 77</a>
+                </div>
+                <a class="feedback__button" href="#popup">Feedback</a>
+                <div id="popup" class="button_feedback-holder">
+                    <div class="feedback-holder__feedback-block">
+                        <h2 class="feedback-block__title">Feedback</h2>
+                        <a class="close" href="#">&times;</a>
+                        <form class="feedback-block__form">
+                            <fieldset>
+                                <label for="name">Name <span class="red">*</span></label>
+                                <input class="form__feedback-input" type="text" id="name" required>
+                                <label for="phone">Phone <span class="red">*</span></label>
+                                <input class="form__feedback-input" type="tel" id="phone" required>
+                                <label for="email">Email <span class="red">*</span></label>
+                                <input class="form__feedback-input" type="email" id="email" required>
+                                <label for="text">Text</label>
+                                <textarea class="form__feedback-textarea" type="text" id="text"></textarea>
+                                <input class="form__feedback-submit" type="submit" value="Submit">
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header__menu-holder">
+        <div class="menu-holder__menu">
+            <nav class="menu__nav-header">
+                <a class="nav-header__link" href="#">Home</a>
+                <a class="nav-header__link" href="#">Catalog</a>
+                <a class="nav-header__link" href="#">Shipping and payment</a>
+                <a class="nav-header__link" href="#">Price</a>
+                <a class="nav-header__link" href="#">Contacts</a>
+            </nav>
+        </div>
+    </div>
+    <div class="header__gallery-holder">
+        <ul class="gallery-holder__gallery">
+            <li><img src="images/slider001.jpg" width="1400" height="537" alt="Workplace"/></li>
+            <li><img src="images/slider002.jpg" width="1400" height="537" alt="Workplace"/></li>
+            <li><img src="images/slider003.jpg" width="1400" height="537" alt="Workplace"/></li>
+        </ul>
+    </div>
+</header>
+<div class="content">
+    <div class="content__breadcrumbs">
+        <ul class="breadcrumbs__breadcrumbs-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Catalog</a></li>
+            <li><a href="#">Household Appliances</a></li>
+            <li><a href="#">Microwaves</a></li>
+        </ul>
+    </div>
+    <div class="content__leftsidemenu-holder">
+        <section class="leftsidemenu-holder__leftsidemenu">
+            <div>
+                <input id="ac-1" name="accordion-1" type="radio"/>
+                <label for="ac-1">Cars</label>
+                <article class="open">
+                    <ul class="open__list">
+                        <li><a href="#">Lorem</a></li>
+                        <li><a href="#">Ipsum</a></li>
+                        <li><a href="#">Dolor sit amet</a></li>
+                        <li><a href="#">Nec modo</a></li>
+                    </ul>
+                </article>
+            </div>
+            <div>
+                <input id="ac-2" name="accordion-1" type="radio" checked/>
+                <label for="ac-2">Household Appliances</label>
+                <article class="open">
+                    <ul class="open__list">
+                        <li><a class="active" href="#">Microwaves</a></li>
+                        <li><a href="#">Fridges</a></li>
+                        <li><a href="#">Посудомоечные машины</a></li>
+                        <li><a href="#">Dishwashers</a></li>
+                    </ul>
+                </article>
+            </div>
+            <div>
+                <input id="ac-3" name="accordion-1" type="radio"/>
+                <label for="ac-3">Mobile Equipment</label>
+                <article class="open">
+                    <ul class="open__list">
+                        <li><a href="#">Impedit eu</a></li>
+                        <li><a href="#">Dicit</a></li>
+                        <li><a href="#">Solet mel eu</a></li>
+                        <li><a href="#">Mei homero</a></li>
+                    </ul>
+                </article>
+            </div>
+            <div>
+                <input id="ac-4" name="accordion-1" type="radio"/>
+                <label for="ac-4">Computers</label>
+                <article class="open">
+                    <ul class="open__list">
+                        <li><a href="#">Scripta ne</a></li>
+                        <li><a href="#">Ei alterum</a></li>
+                        <li><a href="#">Noluisse</a></li>
+                        <li><a href="#">Interpretaris</a></li>
+                    </ul>
+                </article>
+            </div>
+            <div>
+                <input id="ac-5" name="accordion-1" type="radio"/>
+                <label for="ac-5">Clothing</label>
+                <article class="open">
+                    <ul class="open__list">
+                        <li><a href="#">Aliquid</a></li>
+                        <li><a href="#">Quaerendum</a></li>
+                        <li><a href="#">Nam cu</a></li>
+                        <li><a href="#">Meis</a></li>
+                    </ul>
+                </article>
+            </div>
+            <div>
+                <input id="ac-6" name="accordion-1" type="radio"/>
+                <label for="ac-6">Real Estate</label>
+                <article class="open">
+                    <ul class="open__list">
+                        <li><a href="#">Nostro</a></li>
+                        <li><a href="#">Consetetur</a></li>
+                        <li><a href="#">Est in</a></li>
+                        <li><a href="#">His causae</a></li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+        <a class="leftsidemenu-holder__price" href="#">Price List</a>
+    </div>
+    <div class="content__infoblock">
+        <div class="infoblock__products-holder">
+            <div class="products-holder__product">
+                <img src="images/product.jpg" width="210" height="209" alt="Microwave">
+                <p>Lorem ipsum dolor sit amet, consectetur doler adipiscing elit.</p>
+                <div class="product__product-price">
+                    <span class="product-price__amount">$ 550.95</span>
+                    <a class="product-price__bucket" href="#"></a>
+                </div>
+            </div>
+            <div class="products-holder__product">
+                <img src="images/product.jpg" width="210" height="209" alt="Microwave">
+                <p>Lorem ipsum dolor sit amet, consectetur doler adipiscing elit.</p>
+                <div class="product__product-price">
+                    <span class="product-price__amount">$ 350.95</span>
+                    <a class="product-price__bucket" href="#"></a>
+                </div>
+            </div>
+            <div class="products-holder__product">
+                <img src="images/product.jpg" width="210" height="209" alt="Microwave">
+                <p>Lorem ipsum dolor sit amet, consectetur doler adipiscing elit.</p>
+                <div class="product__product-price">
+                    <span class="product-price__amount">$ 850.95</span>
+                    <a class="product-price__bucket" href="#"></a>
+                </div>
+            </div>
+        </div>
+        <div class="infoblock__products-holder">
+            <div class="products-holder__product">
+                <img src="images/product.jpg" width="210" height="209" alt="Microwave">
+                <p>Lorem ipsum dolor sit amet, consectetur doler adipiscing elit.</p>
+                <div class="product__product-price">
+                    <span class="product-price__amount">$ 550.95</span>
+                    <a class="product-price__bucket" href="#"></a>
+                </div>
+            </div>
+            <div class="products-holder__product">
+                <img src="images/product.jpg" width="210" height="209" alt="Microwave">
+                <p>Lorem ipsum dolor sit amet, consectetur doler adipiscing elit.</p>
+                <div class="product__product-price">
+                    <span class="product-price__amount">$ 350.95</span>
+                    <a class="product-price__bucket" href="#"></a>
+                </div>
+            </div>
+            <div class="products-holder__product">
+                <img src="images/product.jpg" width="210" height="209" alt="Microwave">
+                <p>Lorem ipsum dolor sit amet, consectetur doler adipiscing elit.</p>
+                <div class="product__product-price">
+                    <span class="product-price__amount">$ 850.95</span>
+                    <a class="product-price__bucket" href="#"></a>
+                </div>
+            </div>
+        </div>
+        <div class="infoblock__pagination-holder">
+            <ul class="pagination-holder__pagination-list">
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a class="active" href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">6</a></li>
+                <li><a href="#">7</a></li>
+            </ul>
+        </div>
+        <div class="infoblock__text">
+            <p class="text__double-column">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper
+                lacinia auctor. Aliquam vitae
+                mi ornare, tincidunt risus sed, euismod nisl. Nullam imperdiet nisi ut est imperdiet posuere. Cras
+                sodales molestie enim eget porta. Vestibulum scelerisque blandit pulvinar. Donec condimentum malesuada
+                neque a blandit. In sodales ex ac pharetra dictum. In interdum facilisis justo. Maecenas sit amet mi
+                vitae purus ultrices fermentum. In vel orci erat. Suspendisse potenti. Donec arcu nunc, imperdiet id
+                neque nec, mollis viverra nisl. Fusce egestas ligula vitae tristique dignissim.</p>
+            <p class="text__double-column right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                ullamcorper lacinia auctor. Aliquam vitae
+                mi ornare, tincidunt risus sed, euismod nisl. Nullam imperdiet nisi ut est imperdiet posuere. Cras
+                sodales molestie enim eget porta. Vestibulum scelerisque blandit pulvinar. Donec condimentum malesuada
+                neque a blandit. In sodales ex ac pharetra dictum. In interdum facilisis justo. Maecenas sit amet mi
+                vitae purus ultrices fermentum. In vel orci erat. Suspendisse potenti. Donec arcu nunc, imperdiet id
+                neque nec, mollis viverra nisl. Fusce egestas ligula vitae tristique dignissim.</p>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="footer__footer-content">
+        <div class="footer-content__copyright">
+            <strong>&copy; CodeIT 2012–2013, <br>All Rights Reserved.</strong>
+        </div>
+        <nav class="footer-content__nav-footer">
+            <a class="nav-footer__link" href="#">Home</a>
+            <a class="nav-footer__link" href="#">Catalog</a>
+            <a class="nav-footer__link" href="#">Shipping and payment</a>
+            <a class="nav-footer__link" href="#">Price</a>
+            <a class="nav-footer__link" href="#">Contacts</a>
+        </nav>
+    </div>
+</footer>
+</body>
+</html>
